@@ -37,6 +37,7 @@ class OWSqlite3(OWWidget):
     def __init__(self):
         super().__init__()
         self.file_index = 0
+        self.result_set = None
         
         self.populate_controlArea()
         self.populate_mainArea()

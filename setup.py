@@ -11,14 +11,14 @@ NAME = 'Orange3-Sqlite3'
 
 MAJOR = 0
 MINOR = 0
-MICRO = 1
+MICRO = 3
 VERSION = '%d.%d.%d' % (MAJOR, MINOR, MICRO)
 
 AUTHOR = 'Chris Lee'
 AUTHOR_EMAIL = 'github@chrislee.dhs.org'
 
-URL = 'https://github.com/chrislee35/orange3-automl'
-DESCRIPTION = 'Orange3 add-on for Sqlite3 Loading.'
+URL = 'https://github.com/chrislee35/orange3-sqlite3'
+DESCRIPTION = 'Simple widget to load a table from an SQL query against an SQLite3 database'
 LONG_DESCRIPTION = ABOUT
 LICENSE = 'GPL3+'
 
